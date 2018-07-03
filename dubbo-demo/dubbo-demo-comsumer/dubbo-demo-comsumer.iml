@@ -11,5 +11,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="dubbo-demo-api" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-config-spring:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-registry-zookeeper:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-registry-multicast:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-rpc-dubbo:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-remoting-netty:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.dubbo:dubbo-serialization-hession2:unknown" level="project" />
   </component>
 </module>
