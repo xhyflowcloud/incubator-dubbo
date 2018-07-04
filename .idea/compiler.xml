@@ -7,42 +7,68 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-bootstrap" />
+        <module name="dubbo-cluster" />
+        <module name="dubbo-common" />
         <module name="dubbo-config-api" />
         <module name="dubbo-config-spring" />
+        <module name="dubbo-container-api" />
         <module name="dubbo-demo-api" />
         <module name="dubbo-demo-comsumer" />
         <module name="dubbo-demo-provider" />
+        <module name="dubbo-filter-cache" />
+        <module name="dubbo-filter-validation" />
+        <module name="dubbo-monitor-api" />
         <module name="dubbo-monitor-default" />
+        <module name="dubbo-registry-api" />
         <module name="dubbo-registry-default" />
+        <module name="dubbo-registry-multicast" />
+        <module name="dubbo-remoting-api" />
         <module name="dubbo-remoting-netty" />
+        <module name="dubbo-rpc-api" />
         <module name="dubbo-rpc-dubbo" />
         <module name="dubbo-rpc-injvm" />
         <module name="dubbo-rpc-rmi" />
+        <module name="dubbo-serialization-api" />
         <module name="dubbo-serialization-hessian2" />
+        <module name="dubbo-serialization-jdk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="dubbo-bom" target="1.5" />
       <module name="dubbo-bootstrap" target="1.5" />
+      <module name="dubbo-cluster" target="1.5" />
+      <module name="dubbo-common" target="1.5" />
       <module name="dubbo-config" target="1.5" />
       <module name="dubbo-config-api" target="1.5" />
       <module name="dubbo-config-spring" target="1.5" />
+      <module name="dubbo-container" target="1.5" />
+      <module name="dubbo-container-api" target="1.5" />
       <module name="dubbo-demo" target="1.5" />
       <module name="dubbo-demo-api" target="1.5" />
       <module name="dubbo-demo-comsumer" target="1.5" />
       <module name="dubbo-demo-provider" target="1.5" />
+      <module name="dubbo-dependencies-bom" target="1.5" />
+      <module name="dubbo-filter-cache" target="1.5" />
+      <module name="dubbo-filter-validation" target="1.5" />
       <module name="dubbo-monitor" target="1.5" />
+      <module name="dubbo-monitor-api" target="1.5" />
       <module name="dubbo-monitor-default" target="1.5" />
       <module name="dubbo-registry" target="1.5" />
+      <module name="dubbo-registry-api" target="1.5" />
       <module name="dubbo-registry-default" target="1.5" />
+      <module name="dubbo-registry-multicast" target="1.5" />
       <module name="dubbo-remoting" target="1.5" />
+      <module name="dubbo-remoting-api" target="1.5" />
       <module name="dubbo-remoting-netty" target="1.5" />
       <module name="dubbo-rpc" target="1.5" />
+      <module name="dubbo-rpc-api" target="1.5" />
       <module name="dubbo-rpc-dubbo" target="1.5" />
       <module name="dubbo-rpc-injvm" target="1.5" />
       <module name="dubbo-rpc-rmi" target="1.5" />
       <module name="dubbo-serialization" target="1.5" />
+      <module name="dubbo-serialization-api" target="1.5" />
       <module name="dubbo-serialization-hessian2" target="1.5" />
+      <module name="dubbo-serialization-jdk" target="1.5" />
+      <module name="dubbofiltercache" target="1.5" />
       <module name="incubator-dubbo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

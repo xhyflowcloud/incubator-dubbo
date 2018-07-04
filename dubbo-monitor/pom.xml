@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>dubbo-monitor-default</module>
+        <module>dubbo-monitor-api</module>
     </modules>
 
 

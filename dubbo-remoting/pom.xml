@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>dubbo-remoting-netty</module>
+        <module>dubbo-remoting-api</module>
     </modules>
 
 

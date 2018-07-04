@@ -3,25 +3,41 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dubbo-bootstrap/dubbo-bootstrap.iml" filepath="$PROJECT_DIR$/dubbo-bootstrap/dubbo-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-cluster/dubbo-cluster.iml" filepath="$PROJECT_DIR$/dubbo-cluster/dubbo-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-common/dubbo-common.iml" filepath="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config-api/dubbo-config-api.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config-api/dubbo-config-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" filepath="$PROJECT_DIR$/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/dubbo-container-api.iml" filepath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/dubbo-container-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-comsumer/dubbo-demo-comsumer.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-comsumer/dubbo-demo-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-dependencies-bom/dubbo-dependencies-bom.iml" filepath="$PROJECT_DIR$/dubbo-dependencies-bom/dubbo-dependencies-bom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" filepath="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" filepath="$PROJECT_DIR$/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" filepath="$PROJECT_DIR$/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" filepath="$PROJECT_DIR$/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" filepath="$PROJECT_DIR$/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-filter/dubbofiltercache.iml" filepath="$PROJECT_DIR$/dubbo-filter/dubbofiltercache.iml" />
       <module fileurl="file://$PROJECT_DIR$/incubator-dubbo.iml" filepath="$PROJECT_DIR$/incubator-dubbo.iml" />
     </modules>
   </component>

@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/dubbo-remoting/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-rpc/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-serialization/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-dependencies-bom/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-monitor/dubbo-monitor-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-filter/dubbo-filter-cache/pom.xml" />
       </list>
     </option>
   </component>

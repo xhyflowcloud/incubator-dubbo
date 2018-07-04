@@ -191,12 +191,12 @@
                 <version>${jcache_version}</version>
             </dependency>
             <dependency>
-                <groupId>com.ecotericsoftware</groupId>
+                <groupId>com.esotericsoftware</groupId>
                 <artifactId>kryo</artifactId>
                 <version>${kryo_version}</version>
             </dependency>
             <dependency>
-                <groupId>javakaffee</groupId>
+                <groupId>de.javakaffee</groupId>
                 <artifactId>kryo-serializers</artifactId>
                 <version>${kryo_serializers_version}</version>
             </dependency>

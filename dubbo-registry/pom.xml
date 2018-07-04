@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>dubbo-registry-default</module>
+        <module>dubbo-registry-api</module>
+        <module>dubbo-registry-multicast</module>
     </modules>
 
 
