@@ -16,6 +16,13 @@
     <version>2.7.0-SNAPSHOT</version>
     <modules>
         <module>dubbo-demo</module>
+        <module>dubbo-bootstrap</module>
+        <module>dubbo-config</module>
+        <module>dubbo-monitor</module>
+        <module>dubbo-registry</module>
+        <module>dubbo-remoting</module>
+        <module>dubbo-rpc</module>
+        <module>dubbo-serialization</module>
     </modules>
 
 
