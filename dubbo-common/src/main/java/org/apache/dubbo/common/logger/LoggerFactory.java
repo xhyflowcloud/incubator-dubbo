@@ -1,5 +1,8 @@
 package org.apache.dubbo.common.logger;
 
+import org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter;
+import org.apache.dubbo.common.logger.support.FailsafeLogger;
+
 import java.io.File;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

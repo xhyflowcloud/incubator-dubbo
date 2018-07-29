@@ -1,5 +1,8 @@
 package org.apache.dubbo.common.beanutil;
 
+import org.apache.dubbo.common.logger.Logger;
+import org.apache.dubbo.common.logger.LoggerFactory;
+
 import java.lang.reflect.*;
 import java.util.Collection;
 import java.util.HashMap;
@@ -8,7 +11,6 @@ import java.util.Map;
 
 public class JavaBeanSerializeUtil {
 
-    //TODO
     private static final Logger logger = LoggerFactory.getLogger(JavaBeanSerializeUtil.class);
     private static final Map<String, Class<?>> TYPES = new HashMap<String, Class<?>>();
     private static final String ARRAY_PREFIX = "[";
@@ -157,7 +159,14 @@ public class JavaBeanSerializeUtil {
                 } // ~ end of loop field map
             } // ~ end of if (JavaBeanAccessor.isAccessByField(accessor))
         }// ~ end of else
-    }// ~ end of method serializeInternal
+    }// ~ end of method serializeInternal\
+
+    public static Object deserialize(JavaBeanDescriptor beanDescriptor) {
+        Object result = deserialize(
+                beanDescriptor,
+                Thread.currentThread().getContextClassLoader());
+        return result;
+    }
 
     public static Object deserialize(JavaBeanDescriptor beanDescriptor, ClassLoader loader){
         if(beanDescriptor == null){
@@ -166,6 +175,7 @@ public class JavaBeanSerializeUtil {
         IdentityHashMap<JavaBeanDescriptor, Object> cache = new IdentityHashMap<JavaBeanDescriptor, Object>();
         Object result = instantiateForDeserialize(beanDescriptor, loader, cache);
         deserializeInternal(result, beanDescriptor, loader, cache);
+        return result;
     }
 
     private static void deserializeInternal(Object result, JavaBeanDescriptor beanDescriptor, ClassLoader loader, IdentityHashMap<JavaBeanDescriptor, Object> cache){
@@ -336,7 +346,7 @@ public class JavaBeanSerializeUtil {
             }
             try {
                 constructor.setAccessible(true);
-                return constructor.newInstance(constructorArgs)
+                return constructor.newInstance(constructorArgs);
             } catch (InstantiationException e) {
                 LogHelper.warn(logger, e.getMessage(), e);
             } catch (IllegalAccessException e) {
